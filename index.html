@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machu Picchu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="scroll navbar-brand cor-especial font-titulo" href="#inicio">Machu Picchu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li><a class="scroll nav-item nav-link" href="#pacotes">Paquetes</a></li>
+                    <li><a class="scroll nav-item nav-link" href="#Sobre">Quiénes somos</a></li>
+                    <li><a class="nav-item nav-link" data-toggle="modal" data-target="#modalContato" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="inicio">
+        <section id="carouselExampleCaptions" class="carousel slide" data-interval="3000" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/machupicchu-wp1.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="font-titulo display-4 cor-texto-carrossel carrossel-texto">Machu Picchu, la gran ciudadela inca en lo alto de la Cordillera de los Andes en Perú.</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/machupicchu-wp3.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="font-titulo display-4 cor-texto-carrossel carrossel-texto">¡Ahorra! Mira nuestros paquetes.</h1>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </section>
+
+        <section>
+            <h1 class="text-center font-titulo cor-especial pt-5">Machu Picchu, la gran ciudadela histórica</h1>
+            <p class="text-center text-secondary pb-5"><strong>¡Ahorra! Mira nuestros paquetes a continuación.</strong></p>
+        </section>
+
+        <section id="pacotes" class="container-fluid bg-light p-4">
+            <h2 class="text-center mb-4 font-titulo">Conoce nuestros paquetes</h2>
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura col-sm-12 p-0 m-4 col-md-4">
+                    <img src="img/machupicchu-light.jpg" class="card-img-top card-imagem" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Machu Picchu Light</h5>
+                        <p class="card-text">El paquete Machu Picchu Light está diseñado para aquellos que les gusta viajar en los feriados prolongados durante el año.</p>
+                        <a href="#" class="btn botao-cor-especial">¡Mira este paquete!</a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura col-sm-12 p-0 m-4 col-md-4">
+                    <img src="img/machupicchu-classico.jpg" class="card-img-top card-imagem" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Machu Picchu Clásico</h5>
+                        <p class="card-text">Uno de los más solicitados por nuestros clientes, este itinerario abarca los principales lugares turísticos de la ciudad.</p>
+                        <a href="#" class="btn botao-cor-especial">¡Mira este paquete!</a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura col-sm-12 p-0 m-4 col-md-4">
+                    <img src="img/machupicchu-imperial.jpg" class="card-img-top card-imagem" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Machu Picchu Imperial</h5>
+                        <p class="card-text">Este itinerario fue elaborado especialmente para aquellos que desean conocer todos los detalles de la civilización inca.</p>
+                        <a href="#" class="btn botao-cor-especial">¡Mira este paquete!</a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura col-sm-12 p-0 m-4 col-md-4">
+                    <img src="img/huaraz.jpg" class="card-img-top card-imagem" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Huaraz</h5>
+                        <p class="card-text">Los amantes de la naturaleza deben tener Huaraz en su lista de lugares visitados.</p>
+                        <a href="#" class="btn botao-cor-especial">¡Mira este paquete!</a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura col-sm-12 p-0 m-4 col-md-4">
+                    <img src="img/Cajamarca.jpg" class="card-img-top card-imagem" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cajamarca</h5>
+                        <p class="card-text">Aprovecha esta oportunidad y conoce Cajamarca, el gran escenario del fin del Imperio Inca.</p>
+                        <a href="#" class="btn botao-cor-especial">¡Mira este paquete!</a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura col-sm-12 p-0 m-4 col-md-4">
+                    <img src="img/Chiclayo.jpg" class="card-img-top card-imagem" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chiclayo</h5>
+                        <p class="card-text">Aprovecha este itinerario para conocer los principales atractivos de la ciudad de Chiclayo.</p>
+                        <a href="#" class="btn botao-cor-especial">¡Mira este paquete!</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="Sobre" class="mt-4 mb-4">
+            <h2 class="text-center mb-4 font-titulo">Quiénes somos</h2>
+            <article class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h3 class="text-center font-titulo cor-especial text-sobre">Machu Picchu</h3>
+                    </div>
+                    <div class="col-8">
+                        <p class="font-texto">
+                            Nuestra agencia de turismo fue una iniciativa creada por Nelson Gutierrez, un aventurero con amplia experiencia en turismo por el Continente Sudamericano.
+                            Con la unión de experiencia, vivencia y pasión por viajar, surgió la idea de hacer algo diferente en el turismo y crear una experiencia que pudiera enamorar a muchos brasileños.
+                        </p>
+                        <p class="font-texto">
+                            Esta iniciativa está compuesta por algunos principios: Libertad de Elección y Calidad Total, tratamos a todos nuestros clientes con mucha Responsabilidad.
+                            Para aplicar este proyecto, se eligió el destino Perú, donde se encuentra la Perla de América del Sur, Machu Picchu, elegida como una de las 7 Maravillas del Mundo Moderno.
+                        </p>
+                        <p class="font-texto">
+                            Perú es un destino maravilloso para todos aquellos que buscan Historia, Cultura, Aventura, Diversión y Confort.
+                            ¡Acompáñanos y aventúrate en este lugar mágico!
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="bg-secondary p-3">
+        <p class="text-light m-0 text-center">Todos los derechos reservados &copy; Nelson Gutierrez <strong>|</strong>
+            <a class="p-0" href="https://github.com/Nelson22jg"><img class="img-icon-github p-0" src="img/github-icon.png"></a>
+        </p>
+    </footer>
+
+    <!-- Modal Contacto -->
+    <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="modalContatoLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <dialog class="modal-content">
+                <header class="modal-header">
+                    <h5 class="modal-title" id="modalContatoLabel">Contacto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </header>
+                <main class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput0">Nombre:</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput0" placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Correo Electrónico:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@ejemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Ingresa tu mensaje:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn
+                    btn-primary">Enviar</button>
+                </footer>
+            </dialog>
+        </div>
+    </div>
+    <!-- JQUERY  -->
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous"></script>
+    <!-- SCRIPT DE ROLAGEM SUAVE  -->
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+            });
+        });
+    </script>
+    <!-- JS BOOTSTRAP  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

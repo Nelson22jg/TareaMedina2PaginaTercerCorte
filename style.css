@@ -1,0 +1,86 @@
+.card-largura{
+    max-width: 18rem;
+}
+
+.imagem-carrossel{
+    object-fit: cover;
+    height: 500px;
+}
+
+.font-titulo{
+    font-family: 'Pacifico', cursive;
+}
+
+.font-texto{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cor-texto-carrossel{
+    color: whitesmoke;
+}
+
+@media (max-width: 1047px) {
+    .carrossel-texto{
+        opacity: 0.0;
+    }
+}
+
+.cor-especial{
+    color: #6c0003!important;
+}
+
+.botao-cor-especial{
+    background-color: #6c0003;
+    color: white;
+}
+
+.botao-cor-especial:hover{
+    background-color: #b30411;
+    color: white;
+}
+
+.borda-cor-especial{
+    border-color: #6c0003;
+}
+
+.card-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+
+.img-icon-linkedin{
+    height: 25px;
+}
+
+.img-icon-github{
+    height: 35px;
+}
+
+@media (min-width: 350px) {
+    .text-sobre{
+        padding-top: 200%;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 450px) {
+    .text-sobre{
+        padding-top: 100%;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 600px) {
+    .text-sobre{
+        padding-top: 100%;
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .text-sobre{
+        padding-top: 25%;
+        font-size: 50px;
+    }
+}
+
